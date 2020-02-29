@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+	
+}
+
+#main {
+	margin: 30px 10px;
+	background-color: #e4e4e4;
+	border-radius: 7px;
+}
+
+
+#title {
+	text-align: center;
+	padding-top: 2em;
+	font-size: 2.5em;
+}
+#title + p{
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#img-div{
+	background: #fff;
+	width: 98%;
+	margin: auto;
+}
+#img-div img {
+	display: block;
+	margin: auto;
+	max-width: 93%;
+	height: auto; 
+}
+#img-div p {
+	text-align: center;
+	padding: 1.5em 0em;
+}
+#tribute-info{
+	margin: auto;
+	width: 80%;
+}
+#tribute-info h2 {
+	margin: 2em 0em;
+	font-size: 1.2em;
+	text-align: center;
+}
+#tribute-info ul {
+	width: 50%;
+	margin: auto;
+}
+#tribute-info ul li{
+	margin: 1.2em 0em;
+	line-height: 1.5em;
+}
+#tribute-info #finals {
+	width: 50%;
+	margin: auto;
+	text-align: justify;
+	padding: 2em 0em;
+	line-height: 1.5em;
+}
+#finals #indian{
+	margin-top: 1.2em; 
+}
+#tribute-info h3{
+	text-align:  center;
+	padding-bottom: 1.5em;
+}
+
+@media (max-width: 600px) {
+	#main {
+	margin: 20px 10px;
+	border-radius: 5px;
+}
+#title {
+	text-align: center;
+	padding-top: 1.5em;
+	font-size: 1.8em;
+}
+#title + p{
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+#img-div p {
+	padding: 1em 0em;
+}
+#tribute-info h2 {
+	margin: 1.8em 0em;
+	font-size: 1.3em;
+}
+#tribute-info ul {
+	width: 75%;
+}
+#tribute-info ul li{
+	margin: 1em 0em;
+	line-height: 1.3em;
+}
+#tribute-info #finals {
+	width: 75%;
+	text-align: justify;
+	padding: 1.7em 0em;
+	line-height: 1.3em;
+}
+
+}
